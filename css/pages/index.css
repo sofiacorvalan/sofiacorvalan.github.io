@@ -1,0 +1,49 @@
+div.card {
+    border-radius: 35px;
+    border: transparent;
+    padding: 10px;
+    text-align: center;
+    margin: 35px;
+    box-shadow:3px 2px 12px 0px;
+    width: 230px;
+    height: 290px;
+    display: none;
+}
+
+div.card p {
+    font-size: small;
+}
+
+div.card:last-child {
+    margin-bottom: 0px;
+}
+
+.form-index select {
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.form-index input {
+     color: white;
+     padding: 10px;
+     border-radius: 10px;
+     border-color: transparent;
+     background-color: var(--color-theme);
+}
+
+div#ciudadInexistente {
+    display: none;
+}
+
+div#ciudadInexistente p {
+    background: #ffc107;
+    padding: 15px;
+    color: white;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+#loaderCard {
+    display: none;
+}
